@@ -4,7 +4,7 @@
     --branco:#ffffff; 
     --botao-ativo:#4aab0a; 
     --botao-inativo:#96e452; 
-    --texto-fundo:#ffffff;
+    --texto-fundo:#b2a9ea;
     --fonte: 'Oswald';
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
@@ -53,4 +53,33 @@ body{
 }
 .botao:last-child{
     border-radius: 0 40px 0 0;
+}
+@media screen and (min-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--AMARELO);
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--AMARELO);
+    text-transform: uppercase;
 }

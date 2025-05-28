@@ -66,7 +66,7 @@ body{
 }
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--AMARELO);
+    border-bottom: 4px solid var(--AZUL);
 }
 .aba-conteudo{
     display: none;
@@ -80,7 +80,7 @@ body{
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--AMARELO);
+    color: var(--AZUL);
     text-transform: uppercase;
 }
 .contador{
@@ -100,7 +100,7 @@ body{
     margin: 0;
 }
 .contador-digito-texto{
-    color: var(--AMARELO);
+    color: var(--AZUL);
     font-size: 20px;
     margin: 0;
 }

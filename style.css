@@ -28,7 +28,7 @@ body{
     font-size: 32px;
 }
 .titulo-principal span{
-    color: var(--AMARELO);
+    color: var(--AZUL);
 }
 .botao{
     font-family: var(--fonte);

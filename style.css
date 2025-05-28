@@ -1,9 +1,9 @@
 :root{
-    --cor-de-fundo:#3a3939; 
-    --AMARELO:#000000;
+    --cor-de-fundo:#00134d; 
+    --AMARELO:#0e7400;
     --branco:#ffffff; 
     --botao-ativo:#888888; 
-    --botao-inativo:#767b74; 
+    --botao-inativo:#08007d; 
     --texto-fundo:#595757;
     --fonte: 'Oswald';
 }

@@ -1,10 +1,10 @@
 :root{
     --cor-de-fundo:#000000; 
-    --AMARELO:#e1ff00;
+    --AMARELO:#000000;
     --branco:#ffffff; 
-    --botao-ativo:#4aab0a; 
-    --botao-inativo:#96e452; 
-    --texto-fundo:#b2a9ea;
+    --botao-ativo:#000000; 
+    --botao-inativo:#b8bab7; 
+    --texto-fundo:#ffffff;
     --fonte: 'Oswald';
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');

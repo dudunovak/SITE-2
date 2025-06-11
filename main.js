@@ -24,7 +24,7 @@ function atualizaCronometro (){
         document.getElementById ("seg"+i).textContent = calculaTempo(tempos [i])[3];
     }
     for (let i = 0; i < contadores.length; i ++){
-        //contadores[i]. textContent = calculatempo (tempos[i]);
+        //contadores[i].textContent = calculatempo (tempos[i]);
     }
 } 
 function comecaCronometro (){
@@ -49,5 +49,4 @@ function calculaTempo (tempoObjetivo){
     }else{
         return [0,0,0,0]
     }
-    
 }
